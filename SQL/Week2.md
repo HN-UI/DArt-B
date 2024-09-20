@@ -1,11 +1,11 @@
 ### 문제 1
 
-'''sql
+```sql
 SELECT SELLER_ID, COUNT(DISTINCT ORDER_ID) AS orders
 FROM OLIST_ORDER_ITEMS_DATASET
 GROUP BY SELLER_ID
 HAVING COUNT(DISTINCT ORDER_ID) >= 100
-'''
+```
    
 **GROUP BY** 와 **HAVING** 사용  
 
@@ -15,11 +15,11 @@ HAVING COUNT(DISTINCT ORDER_ID) >= 100
 
 ### 문제 2
 
-'''sql
+```sql
 SELECT *
 FROM tips
 WHERE size % 2 != 0
-'''  
+```
 
 
 | where 절에서의 간단한 계산 문제  
@@ -28,7 +28,7 @@ WHERE size % 2 != 0
 
 ### 문제 3
 
-''' sql
+```sql
 WITH tip_sums AS (
     SELECT day, ROUND(SUM(tip), 3) AS tip_daily
     FROM tips
@@ -37,7 +37,7 @@ WITH tip_sums AS (
 SELECT day, tip_daily
 FROM tip_sums
 WHERE tip_daily = (SELECT MAX(tip_daily) FROM tip_sums);
-'''
+```
 
 
 
