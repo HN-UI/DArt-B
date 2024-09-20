@@ -42,3 +42,13 @@ WHERE tip_daily = (SELECT MAX(tip_daily) FROM tip_sums);
 
 
 | WITH 절에서 요일별 팁 합계를 구하고 WHERE 절의 조건문으로 팁 합계가 가장 큰 요일과 이떄의 팁 합계 출력하기
+  
+  
+<img width="916" alt="스크린샷 2024-09-20 20 24 55" src="https://github.com/user-attachments/assets/0c4b1788-c4a8-4ddf-bd09-07395102e3d8">
+
+<img width="523" alt="스크린샷 2024-09-20 20 25 48" src="https://github.com/user-attachments/assets/451ef6c1-1661-4228-9305-0840f6100d17">
+
+  
+<img width="913" alt="스크린샷 2024-09-20 20 26 12" src="https://github.com/user-attachments/assets/ef2a3d35-db93-4f5f-9ecb-dbc764e15ce7">
+
+
