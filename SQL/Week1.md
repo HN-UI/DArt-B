@@ -80,7 +80,10 @@
   - 어떤 컬럼이 존재하는가?
   - 다른 테이블과 연결할 때 어떤 컬럼을 사용하는가?
   - 컬럼의 값들은 어떤 의미를 가지는가?
-  -
-  - <img width="849" alt="스크린샷 2024-09-20 19 33 31" src="https://github.com/user-attachments/assets/b4d597e8-063a-4528-9e95-2a11d4546956">
+  
+  
+  
+  
+<img width="849" alt="스크린샷 2024-09-20 19 33 31" src="https://github.com/user-attachments/assets/b4d597e8-063a-4528-9e95-2a11d4546956">
 
 
