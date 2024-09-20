@@ -14,9 +14,9 @@ ORDER BY SUM(PRICE)
 ```
 
 
-| WITH 절로 거래 완료된 case의 WRITER_ID와 PRICE만 BOARD에서 추출해 사용했다.
-| WRITER_ID와 USER_ID를 JOIN해서 사용했다.
-| USER_ID와 NICKNAME을 기준으로 GROUP BY 하였고, HAVING절과 SUM()을 사용하여 합계 70만원 이상인 경우만 추출하도록 했다.
+| WITH 절로 거래 완료된 case의 WRITER_ID와 PRICE만 BOARD에서 추출해 사용했다.  
+| WRITER_ID와 USER_ID를 JOIN해서 사용했다.  
+| USER_ID와 NICKNAME을 기준으로 GROUP BY 하였고, HAVING절과 SUM()을 사용하여 합계 70만원 이상인 경우만 추출하도록 했다.  
 
 
 
@@ -35,7 +35,7 @@ ORDER BY I.ITEM_ID DESC;
 ```
 
 
-| PARENT_ITEM_ID에 등장하지 않는 ITEM_ID를 찾는 것이 목표인 문제 같은데, WINDOW는 어떻게 써야할지 감이 안잡히네요.. 다른 분들 코드 참고하여 공부하겠습니당 ..
+| PARENT_ITEM_ID에 등장하지 않는 ITEM_ID를 찾는 것이 목표인 문제 같은데, WINDOW는 어떻게 써야할지 감이 안잡히네요.. 다른 분들 코드 참고하여 공부하겠습니당 ..  
 
 
   
@@ -51,8 +51,8 @@ ORDER BY ID
   
   
   
-| SKILLCODES 테이블에서 PYTHON과 C# 코드만 JOIN하고, SKILL_CODE와 CODE를 AND 비트 연산 했을 때 둘 중 하나만 해당 되더라도 0 이상의 값이 나오게 된다.
-| 중복 제거를 위해 DISTINCT를 사용했다.
+| SKILLCODES 테이블에서 PYTHON과 C# 코드만 JOIN하고, SKILL_CODE와 CODE를 AND 비트 연산 했을 때 둘 중 하나만 해당 되더라도 0 이상의 값이 나오게 된다.  
+| 중복 제거를 위해 DISTINCT를 사용했다.  
 
 
 
