@@ -172,3 +172,12 @@ Tableau는 추출, 데이터원본, 컨텍스트, 차원, 측정값, 필터 순�
 ```
 
 ![image](https://github.com/yousrchive/BUSINESS-INTELLIGENCE-TABLEAU/blob/main/study/img/3rd%20study/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202024-09-18%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%204.37.55.png?raw=true)
+
+
+<img width="458" alt="스크린샷 2024-10-01 18 28 16" src="https://github.com/user-attachments/assets/f3daef31-48e8-4090-a991-6df48bb2d359">
+
+<img width="1710" alt="스크린샷 2024-10-01 18 29 57" src="https://github.com/user-attachments/assets/a9486f1b-191f-42b2-8b02-65cf93052032">
+
+```
+그룹화 후 가로 막대로 시각화 하였음
+```
